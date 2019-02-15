@@ -2,14 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
-  background-color: #282c34;
+  background: lightgreen;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,15 +13,49 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h4 {
+  margin: 10px;
+}
+
+h6 {
+  margin: 5px;
+}
+
+.Loading {
+  color: brown;
+}
+
+.PostForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.PostForm input {
+  margin-bottom: 10px;
+}
+
+.PostForm button {
+  margin-top: 10px;
+}
+
+.postTitle {
+  display: flex;
+  align-items: center;
+}
+
+.postTitle h2 {
+  margin-right: 15px;
 }
